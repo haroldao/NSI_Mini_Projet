@@ -3,6 +3,10 @@ def watermark_logo(input_image_path, output_image_path, pos_img):
     original_image=Image.open(input_image_path)
     watermark_logo=Image.open(output_image_path)
 
+    new_width =500
+    new_height=50
+    watermark_logo=watermark_logo.resize((new_width, new_height), Image.ANTIALIAS)
+
     
 
 
