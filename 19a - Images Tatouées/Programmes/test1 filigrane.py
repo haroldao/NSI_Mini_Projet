@@ -18,11 +18,6 @@ def watermark_logo(input_image_path, output_image_path, pos_img):
     transparent.save(output_image_path)
 
 
-
-
-
-
-
 if __name__ == '__main__':
     img='cathedrale.jpg'
     watermark_logo(img, "Arthur_Nom_Logo.png", pos_img=(0,0))

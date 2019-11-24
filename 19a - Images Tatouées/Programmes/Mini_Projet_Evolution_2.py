@@ -1,3 +1,5 @@
+#ICN Logo (Evolution 2)
+
 from PIL import Image
 def watermark_logo(input_image_path, output_image_path, pos_img):
     original_image=Image.open(input_image_path)
