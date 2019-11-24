@@ -1,5 +1,6 @@
 ﻿from PIL import Image
 def watermark_logo(input_image_path, output_image_path, pos_img):
+
     original_image=Image.open(input_image_path)
     watermark_logo=Image.open(output_image_path)
 
@@ -15,12 +16,7 @@ def watermark_logo(input_image_path, output_image_path, pos_img):
 
 
     transparent.show()
-    transparent.save(output_image_path)
-
-
-
-
-
+    transparent.save(output_image_path) #Sauvegarde
 
 
 if __name__ == '__main__':
