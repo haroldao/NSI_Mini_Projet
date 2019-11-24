@@ -20,5 +20,5 @@ def watermark_logo(input_image_path, output_image_path, pos_img):
 
 
 if __name__ == '__main__':
-    img='cathedrale.jpg'
-    watermark_logo(img, "Arthur_Nom_Logo.png", pos_img=(0,0))
+    img='../Ressources/cathedrale.jpg'
+    watermark_logo(img, "../Rendus/Arthur_Nom_Logo.png", pos_img=(0,0))
