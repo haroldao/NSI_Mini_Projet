@@ -1,5 +1,6 @@
 from PIL import Image 
 #https://stackoverflow.com/questions/35531932/pil-remove-background-image-from-image
+#https://stackoverflow.com/questions/52145972/remove-image-background-and-create-a-transparent-image-using-pythons-pil
 
 def Incrustation (input_image_puth, input2_image_path, output_image_path):
     #Import des images + Transformation de l'image en RGBA pour travailler avec la transparence (ALPHA)
