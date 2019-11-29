@@ -27,11 +27,11 @@ def Incrustation (input_image_puth, input2_image_path, output_image_path):
     #Copie de la présentatrice sur la carte météo
     background_image.paste(original_image, (50,0), original_image)
     background_image.show()
-    
+
     #Enregistrement de l'image
     background_image.save(output_image_path)
 
 if __name__ == '__main__':
     img="../Ressources/presentatrice meteo.bmp"
     img2="../Ressources/Carte meteo.bmp"
-    Incrustation(img, img2, "../Rendus/Incrustation.png")
+    Incrustation(img, img2, "../Rendus/Incrustation.bmp")
