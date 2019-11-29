@@ -10,9 +10,6 @@ def Incrustation (input_image_puth, input2_image_path, output_image_path):
     #Lire les informations de l'image (les données des pixels)
     datas =original_image.getdata()
 
-    # #Récuperation des dimensions de l'image 
-    width, height = original_image.size
-
     #Définition d'une liste vide pour les datas
     newData=[]
 
