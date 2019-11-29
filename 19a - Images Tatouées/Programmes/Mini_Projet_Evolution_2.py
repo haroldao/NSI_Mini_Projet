@@ -30,4 +30,4 @@ def watermark_logo(input_image_path, input2_image_path, output_image_path, pos_i
 if __name__ == '__main__':
     img='../Ressources/cathedrale.jpg'
     img_2='../Ressources/NSI_Logo.png'
-    watermark_logo(img, img_2, "../Rendus/NSI_Logo.png", pos_img=(100,0))
+    watermark_logo(img, img_2, "../Rendus/NSI_Logo.jpg", pos_img=(100,0))
