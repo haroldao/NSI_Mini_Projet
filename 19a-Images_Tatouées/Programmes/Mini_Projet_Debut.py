@@ -1,7 +1,8 @@
 ﻿from PIL import Image
 from PIL import ImageDraw
 from PIL import ImageFont
-#https://stackoverflow.com/questions/47123649/pil-draw-trans<parent-text-on-top-of-an-image
+
+
 # https://pillow.readthedocs.io/en/4.2.x/reference/ImageDraw.html#example-draw-partial-opacity-text
 
 
